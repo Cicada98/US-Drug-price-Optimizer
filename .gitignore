@@ -21,3 +21,9 @@ wheels/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Notion / other exports (may contain secrets)
+*.zip
+
+# Generated data (recreate with drug_price_optimization.data.ndc_parser)
+data/processed/
